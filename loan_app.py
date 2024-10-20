@@ -21,7 +21,7 @@ def predictions():
     else:
         Gender = 1
 
-    if loan_req['Married'] == "Unmarried":
+    if loan_req['Married'] == "Unmarried": 
         Married = 0
     else:
         Married = 1
